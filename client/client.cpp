@@ -111,7 +111,10 @@ int main() {
 }
 
 /*
-to run the file use the following commands
+Make sure you have gcc, g++, and gdb installed on your system.
+To compile and run the file use the following commands
+on a separate terminal than the one where the server is listening,
+type in these commands:
 g++ client.cpp -o client.exe -lws2_32
 client.exe
 */
